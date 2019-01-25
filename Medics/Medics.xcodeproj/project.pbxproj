@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B2D0986EC7C31E802D4C3E0 /* Pods_Medics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6259E350D454403E0B50550A /* Pods_Medics.framework */; };
 		770D157421F86E2B005A6B40 /* Doctor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 770D157321F86E2B005A6B40 /* Doctor.storyboard */; };
 		7B2878AE21F710EC005B850A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2878AD21F710EC005B850A /* AppDelegate.swift */; };
 		7B2878B021F710EC005B850A /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2878AF21F710EC005B850A /* SignInVC.swift */; };
@@ -15,12 +16,21 @@
 		7B2878B821F710F1005B850A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B2878B721F710F1005B850A /* Assets.xcassets */; };
 		7B2878BB21F710F1005B850A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B2878B921F710F1005B850A /* LaunchScreen.storyboard */; };
 		7B2878C321F76786005B850A /* ContinueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2878C221F76786005B850A /* ContinueVC.swift */; };
+		7B2FD10C21FB130400C7D628 /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2FD10B21FB130400C7D628 /* Appointment.swift */; };
+		7B2FD10F21FB13D700C7D628 /* AppointmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2FD10E21FB13D700C7D628 /* AppointmentTableViewCell.swift */; };
+		7B2FD11321FB1A1F00C7D628 /* NoteTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B2FD11221FB1A1F00C7D628 /* NoteTableViewCell.xib */; };
+		7B2FD14421FB270100C7D628 /* AppointmentListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2FD14321FB270100C7D628 /* AppointmentListViewController.swift */; };
+		7B2FD14621FB2C6C00C7D628 /* AddAppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2FD14521FB2C6C00C7D628 /* AddAppointmentViewController.swift */; };
+		7B2FD14821FB3B0600C7D628 /* EditAppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2FD14721FB3B0600C7D628 /* EditAppointmentViewController.swift */; };
+		7B2FD14A21FB5FF700C7D628 /* AppointmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2FD14921FB5FF700C7D628 /* AppointmentCell.swift */; };
+		7B2FD14C21FB6F8300C7D628 /* CalendarDayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2FD14B21FB6F8300C7D628 /* CalendarDayCell.swift */; };
 		7B3A06AD21F8677300405C52 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3A06AC21F8677300405C52 /* SignUpVC.swift */; };
 		7B3A06AF21F8680D00405C52 /* ResetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3A06AE21F8680D00405C52 /* ResetPasswordVC.swift */; };
 		7B3A06B121F8AF0A00405C52 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3A06B021F8AF0A00405C52 /* CalendarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6259E350D454403E0B50550A /* Pods_Medics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Medics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		770D157321F86E2B005A6B40 /* Doctor.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Doctor.storyboard; sourceTree = "<group>"; };
 		7B2878AA21F710EC005B850A /* Medics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Medics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B2878AD21F710EC005B850A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -31,9 +41,19 @@
 		7B2878BA21F710F1005B850A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B2878BC21F710F1005B850A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B2878C221F76786005B850A /* ContinueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinueVC.swift; sourceTree = "<group>"; };
+		7B2FD10B21FB130400C7D628 /* Appointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
+		7B2FD10E21FB13D700C7D628 /* AppointmentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentTableViewCell.swift; sourceTree = "<group>"; };
+		7B2FD11221FB1A1F00C7D628 /* NoteTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoteTableViewCell.xib; sourceTree = "<group>"; };
+		7B2FD14321FB270100C7D628 /* AppointmentListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentListViewController.swift; sourceTree = "<group>"; };
+		7B2FD14521FB2C6C00C7D628 /* AddAppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAppointmentViewController.swift; sourceTree = "<group>"; };
+		7B2FD14721FB3B0600C7D628 /* EditAppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAppointmentViewController.swift; sourceTree = "<group>"; };
+		7B2FD14921FB5FF700C7D628 /* AppointmentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentCell.swift; sourceTree = "<group>"; };
+		7B2FD14B21FB6F8300C7D628 /* CalendarDayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDayCell.swift; sourceTree = "<group>"; };
 		7B3A06AC21F8677300405C52 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		7B3A06AE21F8680D00405C52 /* ResetPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordVC.swift; sourceTree = "<group>"; };
 		7B3A06B021F8AF0A00405C52 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		8321CF87B328231D04B29D72 /* Pods-Medics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Medics.release.xcconfig"; path = "Pods/Target Support Files/Pods-Medics/Pods-Medics.release.xcconfig"; sourceTree = "<group>"; };
+		CF30F7D793C982029864F551 /* Pods-Medics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Medics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Medics/Pods-Medics.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B2D0986EC7C31E802D4C3E0 /* Pods_Medics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +73,8 @@
 			children = (
 				7B2878AC21F710EC005B850A /* Medics */,
 				7B2878AB21F710EC005B850A /* Products */,
+				D28E0E51ADC9F36685F8A031 /* Pods */,
+				B372BA5FF67D4141A22B80A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,11 +89,16 @@
 		7B2878AC21F710EC005B850A /* Medics */ = {
 			isa = PBXGroup;
 			children = (
+				7B2FD10D21FB13B600C7D628 /* View */,
+				7B2FD10B21FB130400C7D628 /* Appointment.swift */,
+				7B2FD14121FB265000C7D628 /* NoteGroup */,
 				7B2878AD21F710EC005B850A /* AppDelegate.swift */,
 				7B2878AF21F710EC005B850A /* SignInVC.swift */,
 				7B2878C221F76786005B850A /* ContinueVC.swift */,
 				7B3A06AC21F8677300405C52 /* SignUpVC.swift */,
 				7B3A06B021F8AF0A00405C52 /* CalendarViewController.swift */,
+				7B2FD14B21FB6F8300C7D628 /* CalendarDayCell.swift */,
+				7B2FD14921FB5FF700C7D628 /* AppointmentCell.swift */,
 				7B3A06AE21F8680D00405C52 /* ResetPasswordVC.swift */,
 				7B2878B121F710EC005B850A /* Main.storyboard */,
 				7B2878B721F710F1005B850A /* Assets.xcassets */,
@@ -82,6 +110,50 @@
 			path = Medics;
 			sourceTree = "<group>";
 		};
+		7B2FD10D21FB13B600C7D628 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7B2FD10E21FB13D700C7D628 /* AppointmentTableViewCell.swift */,
+				7B2FD11221FB1A1F00C7D628 /* NoteTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7B2FD14121FB265000C7D628 /* NoteGroup */ = {
+			isa = PBXGroup;
+			children = (
+				7B2FD14221FB26B700C7D628 /* New Group */,
+			);
+			path = NoteGroup;
+			sourceTree = "<group>";
+		};
+		7B2FD14221FB26B700C7D628 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				7B2FD14321FB270100C7D628 /* AppointmentListViewController.swift */,
+				7B2FD14521FB2C6C00C7D628 /* AddAppointmentViewController.swift */,
+				7B2FD14721FB3B0600C7D628 /* EditAppointmentViewController.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		B372BA5FF67D4141A22B80A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6259E350D454403E0B50550A /* Pods_Medics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D28E0E51ADC9F36685F8A031 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF30F7D793C982029864F551 /* Pods-Medics.debug.xcconfig */,
+				8321CF87B328231D04B29D72 /* Pods-Medics.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,9 +161,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B2878BF21F710F1005B850A /* Build configuration list for PBXNativeTarget "Medics" */;
 			buildPhases = (
+				DF2086FD72931A76146F792E /* [CP] Check Pods Manifest.lock */,
 				7B2878A621F710EC005B850A /* Sources */,
 				7B2878A721F710EC005B850A /* Frameworks */,
 				7B2878A821F710EC005B850A /* Resources */,
+				86317909B111A9992F50B525 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -143,22 +217,69 @@
 				7B2878BB21F710F1005B850A /* LaunchScreen.storyboard in Resources */,
 				7B2878B821F710F1005B850A /* Assets.xcassets in Resources */,
 				7B2878B321F710EC005B850A /* Main.storyboard in Resources */,
+				7B2FD11321FB1A1F00C7D628 /* NoteTableViewCell.xib in Resources */,
 				770D157421F86E2B005A6B40 /* Doctor.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		86317909B111A9992F50B525 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Medics/Pods-Medics-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTAppleCalendar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Medics/Pods-Medics-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF2086FD72931A76146F792E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Medics-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7B2878A621F710EC005B850A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B2FD14C21FB6F8300C7D628 /* CalendarDayCell.swift in Sources */,
+				7B2FD14621FB2C6C00C7D628 /* AddAppointmentViewController.swift in Sources */,
+				7B2FD14421FB270100C7D628 /* AppointmentListViewController.swift in Sources */,
+				7B2FD14A21FB5FF700C7D628 /* AppointmentCell.swift in Sources */,
+				7B2FD14821FB3B0600C7D628 /* EditAppointmentViewController.swift in Sources */,
 				7B2878C321F76786005B850A /* ContinueVC.swift in Sources */,
 				7B2878B621F710EC005B850A /* Medics.xcdatamodeld in Sources */,
 				7B2878B021F710EC005B850A /* SignInVC.swift in Sources */,
+				7B2FD10F21FB13D700C7D628 /* AppointmentTableViewCell.swift in Sources */,
 				7B3A06AD21F8677300405C52 /* SignUpVC.swift in Sources */,
 				7B2878AE21F710EC005B850A /* AppDelegate.swift in Sources */,
+				7B2FD10C21FB130400C7D628 /* Appointment.swift in Sources */,
 				7B3A06B121F8AF0A00405C52 /* CalendarViewController.swift in Sources */,
 				7B3A06AF21F8680D00405C52 /* ResetPasswordVC.swift in Sources */,
 			);
@@ -304,6 +425,7 @@
 		};
 		7B2878C021F710F1005B850A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF30F7D793C982029864F551 /* Pods-Medics.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -322,6 +444,7 @@
 		};
 		7B2878C121F710F1005B850A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8321CF87B328231D04B29D72 /* Pods-Medics.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
